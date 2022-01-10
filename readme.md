@@ -3,7 +3,7 @@ Instructions OXID 6
 
 Here are the instructions to create our environment with oxid 6
 
-* Clone the repo
+* Clone the repo and execute `docker-compose up -d`
 * The execute sh bin/tocomplete 
 * final change owner from html folder to www-data
 
