@@ -4,10 +4,13 @@ Instructions OXID 6
 Here are the instructions to create our environment with oxid 6
 
 * Clone the repo and execute `docker-compose up -d`
-* The execute sh bin/tocomplete 
+* The execute `sh bin/tocomplete`
 * final change owner from html folder to www-data
 
+All commands are here 
+
 ```sh
+    docker-compose up -d
     sh bin/tocomplete
     sudo chown -R www-data html
 ```
@@ -30,4 +33,4 @@ the credentials to test, please told to your team lead.
 
 Finally you can enter to you site using
 
-http://localhost:3000
+http://localhost:1000
