@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Importing database . . ." && \
+docker-compose cp oxid.sql db:/oxid.sql && \
+docker-compose exec db bash -c "mysql -uroot -proot oxid < ./oxid.sql" && \
+echo "Installing composer . . ." && \
+docker-compose exec server bash -c "composer install && mkdir -p source/tmp" && \ 
+sudo chmod -R 777 html/source/tmp
