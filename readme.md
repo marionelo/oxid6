@@ -33,4 +33,4 @@ the credentials to test, please told to your team lead.
 
 Finally you can enter to you site using
 
-http://localhost:1000
+http://localhost:3100
