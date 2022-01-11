@@ -21,6 +21,8 @@ RUN docker-php-ext-configure exif \
 
 COPY my-apache-site.conf /etc/apache2/sites-available/my-apache-site.conf
 
+COPY apache2.conf /etc/apache2/apache2.conf
+
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf && \
     a2enmod rewrite && \
     a2dissite 000-default && \
