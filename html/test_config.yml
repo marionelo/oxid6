@@ -25,5 +25,4 @@ optional_parameters:
     browser_name: firefox
     selenium_server_ip: 127.0.0.1
     selenium_server_port: '4444'
-    additional_test_paths: 'vendor/oxid-esales/oxideshop-ee/Tests,vendor/oxid-esales/oxideshop-pe/Tests'
     retry_times_after_test_fail: 2
