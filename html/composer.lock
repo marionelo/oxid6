@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b38c346aaa78977d2bce8f41d8acd3b9",
+    "content-hash": "6e46fc089e7efbae0de4ce014ea0fbae",
     "packages": [
         {
             "name": "amzn/amazon-pay-sdk-php",
@@ -733,6 +733,39 @@
                 }
             ],
             "time": "2021-12-08T13:07:32+00:00"
+        },
+        {
+            "name": "cyberpuerta/temporarymodule",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "source/modules/Cyberpuerta/TemporaryModule",
+                "reference": "528cb2a8b20e7fc389d13b83f7b668b68e96389d"
+            },
+            "type": "oxideshop-module",
+            "extra": {
+                "oxideshop": {
+                    "target-directory": "Cyberpuerta/TemporaryModule"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cyberpuerta\\TempModule\\": "../../../../source/modules/Cyberpuerta/TemporaryModule"
+                }
+            },
+            "license": [
+                "private"
+            ],
+            "authors": [
+                {
+                    "name": "Cyberpuertians",
+                    "email": "sistemas@cyberpuerta.mx"
+                }
+            ],
+            "description": "This module is temporary, will be used for install and uninstall testings.",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "ddoe/wysiwyg-editor-module",
@@ -6847,16 +6880,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.22",
+            "version": "8.5.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ddd05b9d844260353895a3b950a9258126c11503"
+                "reference": "efb20ff3623b9d09bf190a68fdfe574538a8d496"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ddd05b9d844260353895a3b950a9258126c11503",
-                "reference": "ddd05b9d844260353895a3b950a9258126c11503",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/efb20ff3623b9d09bf190a68fdfe574538a8d496",
+                "reference": "efb20ff3623b9d09bf190a68fdfe574538a8d496",
                 "shasum": ""
             },
             "require": {
@@ -6928,7 +6961,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.22"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.23"
             },
             "funding": [
                 {
@@ -6940,7 +6973,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-25T06:58:09+00:00"
+            "time": "2022-01-21T05:50:34+00:00"
         },
         {
             "name": "psr/http-factory",

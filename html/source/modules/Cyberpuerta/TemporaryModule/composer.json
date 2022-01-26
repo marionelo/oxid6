@@ -1,0 +1,23 @@
+{
+  "name": "cyberpuerta/temporarymodule",
+  "description": "This module is temporary, will be used for install and uninstall testings.",
+  "type": "oxideshop-module",
+  "version": "1.0.0",
+  "license": "private",
+  "authors": [
+    {
+      "name": "Cyberpuertians",
+      "email": "sistemas@cyberpuerta.mx"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "Cyberpuerta/TemporaryModule"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Cyberpuerta\\TempModule\\": "../../../../source/modules/Cyberpuerta/TemporaryModule"
+    }
+  }
+}

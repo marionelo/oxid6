@@ -1156,6 +1156,26 @@ modules:
       ddoewysiwyg.tpl: ddoe/wysiwyg/Application/views/admin/tpl/ddoewysiwyg.tpl
       dialog/ddoewysiwygmedia.tpl: ddoe/wysiwyg/Application/views/admin/tpl/dialog/ddoewysiwygmedia.tpl
       dialog/ddoewysiwygmedia_wrapper.tpl: ddoe/wysiwyg/Application/views/admin/tpl/dialog/ddoewysiwygmedia_wrapper.tpl
+  cyberpuertatemporarymodule:
+    id: cyberpuertatemporarymodule
+    path: Cyberpuerta/TemporaryModule
+    version: '1.0'
+    configured: false
+    title:
+      en: '[CP] Temporary Module'
+    description:
+      en: 'This module is temporary, will be used for install and uninstall testings.'
+    lang: en
+    thumbnail: ''
+    author: Cyberpuertians
+    url: ''
+    email: sistemas@cyberpuerta.mx
+    classExtensions:
+      OxidEsales\Eshop\Application\Controller\FrontendController: Cyberpuerta\TempModule\Controller\TemporaryController
+    controllers:
+      temp_controller: Cyberpuerta\TempModule\Controller\TemporaryController
+    templates:
+      temporaryTemplate.tpl: Cyberpuerta/TemporaryModule/views/tpl/temporaryTemplate.tpl
 moduleChains:
   classExtensions:
     OxidEsales\Eshop\Application\Model\Basket:
@@ -1285,3 +1305,5 @@ moduleChains:
       - OxidEsales\WysiwygModule\Core\Language
     OxidEsales\Eshop\Core\Utils:
       - OxidEsales\WysiwygModule\Core\Utils
+    OxidEsales\Eshop\Application\Controller\FrontendController:
+      - Cyberpuerta\TempModule\Controller\TemporaryController
