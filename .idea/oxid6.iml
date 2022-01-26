@@ -127,6 +127,13 @@
       <excludeFolder url="file://$MODULE_DIR$/html/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/html/vendor/symfony/dependency-injection" />
       <excludeFolder url="file://$MODULE_DIR$/html/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/codeception/module-phpbrowser" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/codeception/lib-innerbrowser" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/symfony/browser-kit" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/html/vendor/psr/http-client" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

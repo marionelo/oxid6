@@ -129,6 +129,13 @@
       <path value="$PROJECT_DIR$/html/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/html/vendor/symfony/dependency-injection" />
       <path value="$PROJECT_DIR$/html/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/html/vendor/codeception/module-phpbrowser" />
+      <path value="$PROJECT_DIR$/html/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/html/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/html/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/html/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/html/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/html/vendor/psr/http-client" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

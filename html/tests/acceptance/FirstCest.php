@@ -7,6 +7,7 @@ class FirstCest
     {
         $homePage = new \OxidEsales\Codeception\Page\Home($I);
         $I->amOnPage($homePage->URL);
-        $I->see(\OxidEsales\Codeception\Module\Translation\Translator::translate("HOME"));
+        // $I->see(\OxidEsales\Codeception\Module\Translation\Translator::translate("HOME"));
+        $I->see("Our brands");
     }
 }
