@@ -1,0 +1,23 @@
+{
+  "name": "cyberpuerta/cpgeneral",
+  "description": "Module used for general purposes",
+  "type": "oxideshop-module",
+  "version": "1.0.0",
+  "license": "private",
+  "authors": [
+    {
+      "name": "Cyberpuertians",
+      "email": "sistemas@cyberpuerta.mx"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "Cyberpuerta/cpgeneral"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Cyberpuerta\\Cp\\": "./"
+    }
+  }
+}

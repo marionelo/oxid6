@@ -9,7 +9,8 @@
   "require": {
     "oxid-esales/oxideshop-metapackage-ce": "v6.4.0",
     "squizlabs/php_codesniffer": "^3.6",
-    "cyberpuerta/temporarymodule": "^1.0"
+    "cyberpuerta/temporarymodule": "^1.0",
+    "cyberpuerta/cpgeneral": "^1.0"
   },
   "require-dev": {
     "oxid-esales/testing-library": "^v8.1.0",
@@ -62,10 +63,10 @@
       }
     }
   },
-  "repositories": {
-    "cyberpuerta/temporarymodule": {
+  "repositories": [
+    {
       "type": "path",
-      "url": "source/modules/Cyberpuerta/TemporaryModule"
+      "url": "./source/modules/Cyberpuerta/*/"
     }
-  }
+  ]
 }

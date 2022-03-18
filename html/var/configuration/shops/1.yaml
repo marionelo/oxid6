@@ -1176,6 +1176,24 @@ modules:
       temp_controller: Cyberpuerta\TempModule\Controller\TemporaryController
     templates:
       temporaryTemplate.tpl: Cyberpuerta/TemporaryModule/views/tpl/temporaryTemplate.tpl
+  cpgeneral:
+    id: cpgeneral
+    path: Cyberpuerta/cpgeneral
+    version: '1.0'
+    configured: true
+    title:
+      en: 'General CP'
+    description:
+      en: 'Module used for general purposes'
+    lang: en
+    thumbnail: ''
+    author: Cyberpuertians
+    url: ''
+    email: sistemas@cyberpuerta.mx
+    classExtensions:
+      OxidEsales\Eshop\Application\Controller\FrontendController: Cyberpuerta\Cp\Controller\AllReviewsController
+    controllers:
+      reviews_by_product: Cyberpuerta\Cp\Controller\AllReviewsController
 moduleChains:
   classExtensions:
     OxidEsales\Eshop\Application\Model\Basket:
@@ -1306,4 +1324,5 @@ moduleChains:
     OxidEsales\Eshop\Core\Utils:
       - OxidEsales\WysiwygModule\Core\Utils
     OxidEsales\Eshop\Application\Controller\FrontendController:
+      - Cyberpuerta\Cp\Controller\AllReviewsController
       - Cyberpuerta\TempModule\Controller\TemporaryController
